@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "video1", "video1\video1.csproj", "{2A33E161-207A-4B85-9B82-2990D5031BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "video2", "video2\video2.csproj", "{CDE3D74B-391A-4773-BBE8-0EB2C0F045BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A33E161-207A-4B85-9B82-2990D5031BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A33E161-207A-4B85-9B82-2990D5031BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A33E161-207A-4B85-9B82-2990D5031BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A33E161-207A-4B85-9B82-2990D5031BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE3D74B-391A-4773-BBE8-0EB2C0F045BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE3D74B-391A-4773-BBE8-0EB2C0F045BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE3D74B-391A-4773-BBE8-0EB2C0F045BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE3D74B-391A-4773-BBE8-0EB2C0F045BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A40CE6D-44B3-497E-9002-636DE892F8C6}
+	EndGlobalSection
+EndGlobal
