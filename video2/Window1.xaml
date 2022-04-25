@@ -6,34 +6,79 @@
         xmlns:local="clr-namespace:video2"
         mc:Ignorable="d"
         
-        Title="Window1" Height="400" Width="400">
+        Title="Window1" Height="450" Width="800"
+        WindowStyle="None" ResizeMode="NoResize"
+        Background="Pink">
     <Grid>
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="20"/>
-
-
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <!-- 6 Rows -->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="20"/>
-        </Grid.RowDefinitions>
-    
-        <TextBlock x:Name="block1" Text=" when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," Foreground="Blue" TextWrapping="Wrap"></TextBlock>
+        <Grid Background="DarkBlue" Grid.ColumnSpan="2">
 
-      
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="bunnyco" 
+                       Foreground="Red"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"/>
+            
+            <TextBlock Text="Menu" 
+                       Foreground="Red"
+                       Grid.Column="2"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"/>
+
+            <TextBlock Text="website" 
+                       Foreground="Red"
+                       Grid.Column="3"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontWeight="Medium"/>
+
+        </Grid>
+
+        <StackPanel Grid.Row="1">
+            <StackPanel  Orientation="Horizontal">
+                <Image Width="50" Height="50" Source="imges/car.png" Margin="10,8,10,5"/>
+                <TextBlock Text="bunnny co" 
+                           Foreground="Green"
+                           FontWeight="Medium"
+                           FontSize="20"
+                           VerticalAlignment="Center"/>
+
+
+            </StackPanel>
+
+        </StackPanel>
+
+
     </Grid>
 </Window>

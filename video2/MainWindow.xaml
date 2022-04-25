@@ -26,7 +26,7 @@
             centuries,  
             ersions of Lorem Ipsum.</TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="15,18,0,10" FontSize="15" Width="150" Text="Skriv dit Navn" TextWrapping="Wrap"></TextBlock>
-        <TextBox  BorderThickness="2" BorderBrush="Black" AcceptsReturn="True" SpellCheck.IsEnabled="True" Language="en-US"  TextWrapping="Wrap" x:Name="text" Margin="160,5,160,16" FontSize="25"  > </TextBox>
+        <TextBox  BorderThickness="2" BorderBrush="Black" SpellCheck.IsEnabled="True" Language="en-US"  TextWrapping="Wrap" x:Name="text" Margin="160,5,160,16" FontSize="25"  > </TextBox>
         <Button ToolTip="click for kom vider " 
             x:Name="button" BorderBrush="Blue" Content="Næste" Width="100" Click="form1_Click"> </Button>
         

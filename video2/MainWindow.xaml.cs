@@ -50,9 +50,10 @@ namespace video2
 
                 // Nyt window form vill åbnet..
 
-                Window1 p = new Window1();
+                Window1 p = new Window1();  
                 p.Show();
                 this.Close();
+
 
             }
             // ellers man vil får en error message
