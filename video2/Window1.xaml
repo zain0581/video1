@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         
         Title="Window1" Height="450" Width="800"
-        WindowStyle="None" ResizeMode="NoResize"
+        WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
         Background="Pink">
     <Grid>
 
@@ -66,7 +66,10 @@
         </Grid>
 
         <StackPanel Grid.Row="1">
-            <StackPanel  Orientation="Horizontal">
+
+            <StackPanel>
+
+                <StackPanel  Orientation="Horizontal">
                 <Image Width="50" Height="50" Source="imges/car.png" Margin="10,8,10,5"/>
                 <TextBlock Text="bunnny co" 
                            Foreground="Green"
@@ -74,7 +77,43 @@
                            FontSize="20"
                            VerticalAlignment="Center"/>
 
+            </StackPanel>
 
+
+            <TextBlock Text="Costomize"
+                       Foreground="Black"
+                       FontSize="23"
+                       FontWeight="Medium"
+                       />
+            <TextBlock Text="your"
+                      
+                       Foreground="Black"
+                       FontSize="23"
+                       FontWeight="Medium"
+                       />
+            <TextBlock Text="Expiriance"
+                       Foreground="Black"
+                       FontSize="23"
+                       FontWeight="Medium"
+                       />
+            <TextBlock Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                       Foreground="Black"
+                       TextWrapping="Wrap"
+                       FontSize="13"
+                       FontWeight="Medium"
+                       />
+        </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Start"
+                        Foreground="Blue"
+                        FontSize="15"
+                        Width="90"
+                        FontWeight="Medium"
+                        Margin="10"
+                        ></Button>
+                
             </StackPanel>
 
         </StackPanel>
