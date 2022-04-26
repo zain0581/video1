@@ -65,7 +65,7 @@
 
         </Grid>
 
-        <StackPanel Grid.Row="1">
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="30">
 
             <StackPanel>
 
@@ -96,9 +96,10 @@
                        FontSize="23"
                        FontWeight="Medium"
                        />
-            <TextBlock Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            <TextBlock Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
                        Foreground="Black"
                        TextWrapping="Wrap"
+                       Padding="5"
                        FontSize="13"
                        FontWeight="Medium"
                        />
@@ -112,8 +113,22 @@
                         Width="90"
                         FontWeight="Medium"
                         Margin="10"
-                        ></Button>
+                        x:Name="btn1" Click="btn1_Click"
+                        BorderThickness="2"
+                        />
                 
+                <Button Content="Register"
+                        Foreground="Blue"
+                        FontSize="15"
+                        Width="90"
+                        FontWeight="Medium"
+                        Margin="10"
+                        BorderThickness="2"
+                        x:Name="btn2"
+                        Click="btn2_Click"
+                        />
+
+
             </StackPanel>
 
         </StackPanel>

@@ -24,9 +24,15 @@ namespace video2
             InitializeComponent();
         }
 
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($" Hello { btn1}");
+            
+        }
 
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
 
-
-
+        }
     }
 }
